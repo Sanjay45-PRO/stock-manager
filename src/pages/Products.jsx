@@ -5,6 +5,8 @@ import { Plus, Pencil, Trash2, X } from 'lucide-react'
 
 const UNIT_OPTIONS = [
   { value: 'pcs', label: 'Pieces (pcs)' },
+  { value: 'nos', label: 'Number (nos)' },       // new
+  { value: 'packet', label: 'Packet' }, 
   { value: 'kg', label: 'Kilograms (kg)' },
   { value: 'g', label: 'Grams (g)' },
   { value: 'l', label: 'Litres (l)' },
